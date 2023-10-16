@@ -2,7 +2,7 @@
 
 In this project, we aim to enhance the capabilities of Bag of Words (BoW) and subsequently perform text classification using a clustering algorithm that we developed.
 
-## Data Preprocessing
+### Data Preprocessing
 
 To begin, we conducted thorough data preprocessing. This involved the removal of common English stopwords, punctuation marks, and pronouns. We then calculated the frequency of word occurrences by splitting the text into pandas series. This frequency distribution forms the foundation of our BoW representation. By selecting an appropriate frequency threshold, we refine the BoW by selecting relevant words, effectively reducing the dimensionality of the word space.
 
